@@ -15,11 +15,11 @@
       "sourceStrategy": {
         "from": {
           "kind": "DockerImage",
-          "name": "docker.io/uptoknow/extendedbuild_builder:latest"
+          "name": "docker.io/aosqe/extendedbuild_builder:latest"
         },
         "runtimeImage": {
           "kind": "DockerImage",
-          "name": "docker.io/uptoknow/extendedbuild_runtime:latest"
+          "name": "docker.io/aosqe/extendedbuild_runtime:latest"
         },
         "runtimeArtifacts": [
           {
